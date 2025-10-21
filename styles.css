@@ -29,38 +29,74 @@ h1 {
     background-color: rgb(239, 195, 113);
 }
 
-#s1.square::before {
+#s1.square::after {
     content: "??";
 }
 
-#s2.square::before {
+#s1.square:active::after {
+    content: "☠️";
+}
+
+#s2.square::after {
     content: "??";
 }
 
-#s3.square::before {
+#s2.square:active::after {
+    content: "☠️";
+}
+
+#s3.square::after {
     content: "??";
 }
 
-#s4.square::before {
+#s3.square:active::after {
+    content: "☠️";
+}
+
+#s4.square::after {
     content: "??";
 }
 
-#s5.square::before {
+#s4.square:active::after {
+    content: "👻";
+}
+
+#s5.square::after {
     content: "??";
 }
 
-#s6.square::before {
+#s5.square:active::after {
+    content: "☠️";
+}
+
+#s6.square::after {
     content: "??";
 }
 
-#s7.square::before {
+#s6.square:active::after {
+    content: "☠️";
+}
+
+#s7.square::after {
     content: "??";
 }
 
-#s8.square::before {
+#s7.square:active::after {
+    content: "☠️";
+}
+
+#s8.square::after {
     content: "??";
 }
 
-#s9.square::before {
+#s8.square:active::after {
+    content: "☠️";
+}
+
+#s9.square::after {
     content: "??";
+}
+
+#s9.square:active::after {
+    content: "☠️";
 }
